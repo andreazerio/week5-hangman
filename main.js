@@ -37,4 +37,8 @@ $('.letC').click(function(){
     if (word.indexOf(ug.html().toLowerCase()) === -1) lives-= 1;
     showLives();
 });
+
+$('button').click(function(){
+  location.reload();
+})
 });
