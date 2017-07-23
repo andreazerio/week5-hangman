@@ -33,3 +33,19 @@ cursor: pointer;
   background-color: #2e4663;
   color:#cbd8e7;
 }
+
+#guessList {
+  list-style: none;
+  display:inline-flex;
+  padding-top: 20px;
+}
+
+.guessC {
+    position:relative;
+    margin:0px;
+    padding:10px;
+    color: #cbd8e7;
+    font-size:1.6em;
+    width: auto;
+
+}
