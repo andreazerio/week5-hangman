@@ -17,4 +17,18 @@ for (var i = 0; i < word.length; i++) {
   $('#guessList').append(guess);
 }
 
+var counter = 0;
+var lives = 10;
+$('.letC').click(function(){
+  var ug = $(this);              // ug === userGuess
+  ug.css('opacity','0.5');
+  for (var i = 0; i < word.length; i++) {
+    if (word[i] === ug.html().toLowerCase()) {
+      counter+= 1;
+      $('#'+i).html(ug.html());
+    }
+    }
+    if (word.indexOf(ug.html().toLowerCase()) === -1) lives-= 1;
+});
+
 });
