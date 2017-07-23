@@ -49,3 +49,9 @@ cursor: pointer;
     width: auto;
 
 }
+
+#lives {
+  padding-top: 20px;
+  color:#cbd8e7;
+  font-size:1.6em;
+}

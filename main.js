@@ -17,10 +17,16 @@ for (var i = 0; i < word.length; i++) {
   $('#guessList').append(guess);
 }
 
+var showLives = function() {
+  $('#lives').html('You have '+lives+' lives left');
+if (lives < 1) $('#lives').html('Game Over');
+if(counter === word.length) $('#lives').html('You Win!');
+}
+
 var counter = 0;
 var lives = 10;
 $('.letC').click(function(){
-  var ug = $(this);              // ug === userGuess
+  var ug = $(this);
   ug.css('opacity','0.5');
   for (var i = 0; i < word.length; i++) {
     if (word[i] === ug.html().toLowerCase()) {
@@ -29,6 +35,6 @@ $('.letC').click(function(){
     }
     }
     if (word.indexOf(ug.html().toLowerCase()) === -1) lives-= 1;
+    showLives();
 });
-
 });
