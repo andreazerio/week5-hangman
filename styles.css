@@ -2,7 +2,7 @@ body {
   height:100%;
     text-align:center;
     background-color:#2e4663;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     display: flex;
 }
 
@@ -16,8 +16,20 @@ display: inline-flex;
 padding-top:20px;
 }
 
-h1, h2{
+h1{
   color: #cbd8e7;
+  display:flex;
+  margin-left: 420px;
+}
+
+h2 {
+  color: #cbd8e7;
+  display:flex;
+  margin-left: 460px;
+}
+
+p {
+  display:flex;
 }
 .letC {
   margin: 0 10px 10px 0;
@@ -32,6 +44,12 @@ cursor: pointer;
 .letC:hover {
   background-color: #2e4663;
   color:#cbd8e7;
+}
+
+#guesses {
+  display:flex;
+  margin-left: 550px;
+
 }
 
 #guessList {
@@ -54,6 +72,8 @@ cursor: pointer;
   padding-top: 20px;
   color:#cbd8e7;
   font-size:1.6em;
+  display: flex;
+  margin-left: 550px;
 }
 
 button {
@@ -63,13 +83,27 @@ button {
   border-radius: 5px;
   cursor:pointer;
   font-size:1.2em;
-  padding:18px 10px;
+  padding:10px;
   width:180px;
   margin: 10px;
   outline: none;
+  display:flex;
+  margin-left: 590px;
+  text-align: center;
 }
 
 button:hover{
   background-color: white;
   color:#2e4663;
+}
+
+button p {
+  display: flex;
+  margin-left: 40px;
+}
+
+#hangman{
+  padding:10px;
+  display: flex;
+  margin-left: 350px;
 }
