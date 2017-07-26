@@ -25,25 +25,25 @@ if(counter === word.length) $('#lives').html('You Win!');
 
 var hangman = function () {
 switch(lives) {
-  case 9: $('#hangman').append('<img id = "hang1" src="http://i67.tinypic.com/2587yhk.png">');
+  case 9: $('#hangman').append('<img id = "hang1" src="http://i65.tinypic.com/bjfh5h.png">');
   break;
-  case 8: $('#hang1').attr('src','http://i65.tinypic.com/2s8r3h3.png');
+  case 8: $('#hang1').attr('src','http://i68.tinypic.com/2iqyepz.png');
   break;
-  case 7: $('#hang1').attr('src','http://i67.tinypic.com/21bki15.png');
+  case 7: $('#hang1').attr('src','http://i66.tinypic.com/2v9zqx1.pn');
   break;
-  case 6: $('#hang1').attr('src','http://i64.tinypic.com/2itodna.png');
+  case 6: $('#hang1').attr('src','http://i63.tinypic.com/28kmr61.png');
   break;
-  case 5: $('#hang1').attr('src','http://i68.tinypic.com/qx2lwk.jpg');
+  case 5: $('#hang1').attr('src','http://i64.tinypic.com/el4pdx.png');
   break;
-  case 4: $('#hang1').attr('src','http://i63.tinypic.com/16p05g.png');
+  case 4: $('#hang1').attr('src','http://i64.tinypic.com/2rpqnuv.png');
   break;
-  case 3: $('#hang1').attr('src','http://i67.tinypic.com/r09j6q.png');
+  case 3: $('#hang1').attr('src','http://i63.tinypic.com/2iqeeeq.png');
   break;
-  case 2: $('#hang1').attr('src','http://i63.tinypic.com/2cfbm1k.png');
+  case 2: $('#hang1').attr('src','http://i64.tinypic.com/9iquyx.png');
   break;
-  case 1: $('#hang1').attr('src','http://i68.tinypic.com/2jfiohu.png');
+  case 1: $('#hang1').attr('src','http://i66.tinypic.com/2z4mqzn.png');
   break;
-  case 0: $('#hang1').attr('src','http://i67.tinypic.com/2a9wvhl.png');
+  case 0: $('#hang1').attr('src','http://i65.tinypic.com/1xzz8m.png');
 }
 };
 

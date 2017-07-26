@@ -105,5 +105,10 @@ button p {
 #hangman{
   padding:10px;
   display: flex;
-  margin-left: 350px;
+  margin-left: 280px;
+}
+
+#lives p {
+  display: flex;
+  margin-left: 510px;
 }
